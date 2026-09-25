@@ -10,4 +10,9 @@ class MainTest {
     void greetReturnsGreeting() {
         assertEquals("Hello, World!", Main.greet("World"));
     }
+
+    @Test
+    void greetReturnsGreetingWhenNull() {
+        assertEquals("Hello, unknown!", Main.greet(null));
+    }
 }

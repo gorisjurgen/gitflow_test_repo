@@ -6,7 +6,7 @@
 
   <groupId>com.brutex</groupId>
   <artifactId>gitflow-test-repo</artifactId>
-  <version>1.0.3</version>
+  <version>1.1.0</version>
   <packaging>jar</packaging>
 
   <name>gitflow-test-repo</name>

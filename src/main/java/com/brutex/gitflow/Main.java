@@ -11,6 +11,6 @@ public class Main
     public static String greet(String name)
     {
         System.out.println("Start Greeting");
-        return MessageGenerator.build(name);
+        return GreetingGenerator.build(name);
     }
 }
